@@ -1,75 +1,36 @@
-# React + TypeScript + Vite
+# Noto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Your personal workspace, all in one place.
 
-Currently, two official plugins are available:
+Noto is a local-first personal productivity and organization app designed to bring your everyday information into one clean, unified workspace.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Manage your **notes, tasks, calendar, finances, projects, bookmarks, and passwords** without needing separate applications for each.
 
-## React Compiler
+### Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Notes** — Create and organize your ideas and information.
+- **Tasks** — Keep track of things that need to get done.
+- **Calendar** — Manage events and your schedule.
+- **Finances** — Track your money, accounts, and transactions.
+- **Projects** — Organize larger goals and their related tasks.
+- **Bookmarks** — Save and organize useful websites.
+- **Passwords** — Keep your credentials in a secure local vault.
+- **Customizable** — Personalize Noto to fit your workflow.
 
-## Expanding the ESLint configuration
+### Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**React · TypeScript · Vite · Tauri · Rust · SQLite**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Noto follows a **local-first** approach, keeping your core data on your own device.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Status
 
-```
+**Noto is currently in active development.**
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+The core application structure and database architecture are in place, with individual modules being developed progressively.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+> **Noto** — Everything you need. One place.
