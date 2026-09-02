@@ -1,0 +1,191 @@
+# ============================================================
+# Noto — Git Ignore
+# Tauri + React + TypeScript + SQLite
+# ============================================================
+
+
+# ============================================================
+# Node.js / npm
+# ============================================================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+
+# ============================================================
+# Vite / Frontend Build
+# ============================================================
+
+dist/
+build/
+.vite/
+
+*.tsbuildinfo
+
+
+# ============================================================
+# Tauri / Rust
+# ============================================================
+
+src-tauri/target/
+
+# Tauri generated files
+src-tauri/gen/
+
+# Rust build artifacts
+target/
+
+# Rust lockfile is normally committed for applications,
+# so Cargo.lock is intentionally NOT ignored.
+
+
+# ============================================================
+# SQLite / Local Database
+# ============================================================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# SQLite backups
+*.db-journal
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Local secret/config files
+*.secret
+*.secrets
+*.key
+*.pem
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+log/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+vite-debug.log*
+
+
+# ============================================================
+# Operating System
+# ============================================================
+
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Windows
+# ============================================================
+
+$RECYCLE.BIN/
+*.stackdump
+
+
+# ============================================================
+# IDE — Visual Studio Code
+# ============================================================
+
+.vscode/*
+
+# Keep shared VS Code configuration
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+
+# ============================================================
+# IDE — JetBrains
+# ============================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ============================================================
+# Temporary / Backup Files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# Coverage / Testing
+# ============================================================
+
+coverage/
+.nyc_output/
+.junit/
+test-results/
+
+
+# ============================================================
+# TypeScript / Tooling Caches
+# ============================================================
+
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+
+# ============================================================
+# OS / Application Generated Files
+# ============================================================
+
+*.orig
+*.rej
+
+
+# ============================================================
+# Local Noto Data
+# ============================================================
+
+# Local application data should never be committed.
+.noto/
+noto-data/
+noto.db
+noto.sqlite
