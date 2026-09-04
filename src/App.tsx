@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import { AppShell } from "./shell/AppShell"
 import { Dashboard } from "./modules/Dashboard"
 import { Notes } from "./modules/Notes"
+import { Tasks } from "./modules/Tasks"
 import { Settings } from "./modules/Settings"
 import { PlaceholderModule } from "./modules/PlaceholderModule"
 
@@ -11,7 +12,7 @@ function App() {
       <Route element={<AppShell />}>
         <Route index element={<Dashboard />} />
         <Route path="notes" element={<Notes />} />
-        <Route path="tasks" element={<PlaceholderModule title="Tasks" />} />
+        <Route path="tasks" element={<Tasks />} />
         <Route path="calendar" element={<PlaceholderModule title="Calendar" />} />
         <Route path="finances" element={<PlaceholderModule title="Finances" />} />
         <Route path="projects" element={<PlaceholderModule title="Projects" />} />
