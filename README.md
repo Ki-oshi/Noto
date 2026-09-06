@@ -16,24 +16,24 @@
 
 Instead of jumping between different apps, Noto gives you one place to **capture ideas, organize tasks, plan your time, manage projects, track finances, save bookmarks, and protect your credentials.**
 
-Simple by design.  
-Powerful when you need it.  
+Simple by design.
+Powerful when you need it.
 **Yours by default.**
 
 ---
 
 ## ◌ Everything in One Workspace
 
-| Module | What it does |
-|---|---|
-| 📝 **Notes** | Capture ideas, information, and everything worth remembering. |
-| ✓ **Tasks** | Organize your to-dos, priorities, and deadlines. |
-| ◷ **Calendar** | Keep your events and schedule in one place. |
-| ₱ **Finances** | Track accounts, transactions, income, and expenses. |
-| ◈ **Projects** | Turn bigger goals into organized projects and tasks. |
-| 🔖 **Bookmarks** | Save and organize the websites you want to keep. |
-| 🔐 **Passwords** | Store credentials in a secure local vault. |
-| ⚙ **Settings** | Customize Noto around the way you work. |
+| Module           | What it does                                                  |
+| ---------------- | ------------------------------------------------------------- |
+| 📝 **Notes**     | Capture ideas, information, and everything worth remembering. |
+| ✓ **Tasks**      | Organize your to-dos, priorities, and deadlines.              |
+| ◷ **Calendar**   | Keep your events and schedule in one place.                   |
+| ₱ **Finances**   | Track accounts, transactions, income, and expenses.           |
+| ◈ **Projects**   | Turn bigger goals into organized projects and tasks.          |
+| 🔖 **Bookmarks** | Save and organize the websites you want to keep.              |
+| 🔐 **Passwords** | Store credentials in a secure local vault.                    |
+| ⚙ **Settings**   | Customize Noto around the way you work.                       |
 
 ---
 
@@ -80,6 +80,12 @@ Noto is currently **in active development**.
 The core desktop application, navigation structure, and database architecture are already in place. Individual modules are being developed progressively.
 
 More features are coming as Noto evolves.
+
+---
+
+## ✦ Development Disclaimer
+
+Noto was developed with the assistance of **AI tools** throughout the development process. AI was used to support tasks such as brainstorming, code generation, debugging, problem-solving, and development guidance. The project, its direction, implementation decisions, and final integration were reviewed and managed by the developer.
 
 ---
 
