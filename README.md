@@ -85,7 +85,7 @@ More features are coming as Noto evolves.
 
 ## ✦ Development Disclaimer
 
-Noto was developed with the assistance of **AI tools** throughout the development process. AI was used to support tasks such as brainstorming, code generation, debugging, problem-solving, and development guidance. The project, its direction, implementation decisions, and final integration were reviewed and managed by the developer.
+**Noto is my own original idea and project concept.** AI tools were used as development assistance throughout the process, including for brainstorming, code generation, debugging, problem-solving, and technical guidance. The overall concept, direction, design decisions, implementation choices, and final project are my own.
 
 ---
 
