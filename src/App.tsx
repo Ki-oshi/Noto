@@ -4,8 +4,10 @@ import { Dashboard } from "./modules/Dashboard"
 import { Notes } from "./modules/Notes"
 import { Tasks } from "./modules/Tasks"
 import { Calendar } from "./modules/Calendar"
+import { Finances } from "./modules/Finances"
 import { Settings } from "./modules/Settings"
-import { PlaceholderModule } from "./modules/PlaceholderModule"
+import { Bookmarks } from "./modules/Bookmarks"
+import { Password } from "./modules/Password"
 
 function App() {
   return (
@@ -15,10 +17,9 @@ function App() {
         <Route path="notes" element={<Notes />} />
         <Route path="tasks" element={<Tasks />} />
         <Route path="calendar" element={<Calendar />} />
-        <Route path="finances" element={<PlaceholderModule title="Finances" />} />
-        <Route path="projects" element={<PlaceholderModule title="Projects" />} />
-        <Route path="bookmarks" element={<PlaceholderModule title="Bookmarks" />} />
-        <Route path="passwords" element={<PlaceholderModule title="Passwords" />} />
+        <Route path="finances" element={<Finances />} />
+        <Route path="bookmarks" element={<Bookmarks />} />
+        <Route path="passwords" element={<Password />} />
         <Route path="settings" element={<Settings />} />
       </Route>
     </Routes>

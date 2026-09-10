@@ -24,3 +24,18 @@ log = "0.4"
 tauri = { version = "2.11.3", features = [] }
 tauri-plugin-log = "2"
 tauri-plugin-sql = { version = "2.4.1", features = ["sqlite"] }
+
+argon2 = "0.5"
+chacha20poly1305 = "0.10"
+hkdf = "0.12"
+sha2 = "0.10"
+rand = "0.8"
+base64 = "0.22"
+zeroize = "1"
+thiserror = "1"
+
+# serde is almost certainly already a dependency (Tauri itself
+# requires it), but vault.rs needs it with the "derive" feature for
+# #[derive(Serialize, Deserialize)]. If your existing entry doesn't
+# already enable "derive", update it to:
+# serde = { version = "1", features = ["derive"] }
