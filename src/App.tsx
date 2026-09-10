@@ -7,7 +7,7 @@ import { Calendar } from "./modules/Calendar"
 import { Finances } from "./modules/Finances"
 import { Settings } from "./modules/Settings"
 import { Bookmarks } from "./modules/Bookmarks"
-import { Password } from "./modules/Password"
+import { Passwords } from "./modules/Passwords"
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="calendar" element={<Calendar />} />
         <Route path="finances" element={<Finances />} />
         <Route path="bookmarks" element={<Bookmarks />} />
-        <Route path="passwords" element={<Password />} />
+        <Route path="passwords" element={<Passwords />} />
         <Route path="settings" element={<Settings />} />
       </Route>
     </Routes>

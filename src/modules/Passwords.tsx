@@ -18,9 +18,9 @@ import {
   type PasswordEntry,
   type PasswordFolder,
   type PasswordGeneratorOptions,
-} from "../lib/password"
+} from "../lib/passwords"
 
-import "./Password.css"
+import "./Passwords.css"
 
 const DEFAULT_GENERATOR_OPTIONS: PasswordGeneratorOptions = {
   length: 16,
@@ -140,7 +140,7 @@ function StarIcon({ filled }: { filled: boolean }) {
   )
 }
 
-export function Password() {
+export function Passwords() {
   const [loading, setLoading] = useState(true)
   const [vaultConfigured, setVaultConfigured] = useState(false)
   const [vaultUnlocked, setVaultUnlocked] = useState(false)
